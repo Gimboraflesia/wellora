@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLEXBOX</title>
+    <style>
+      .container {
+        width: 800px;
+        display: flex;
+        justify-content: start;
+        background-color: bisque;
+        outline: 2px solid black;
+        margin: auto;
+        padding: 10px;
+      }
+      .container2 {
+        height: 400px;
+        width: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: bisque;
+        outline: 2px solid black;
+        margin: auto;
+        padding: 10px;
+      }
+      .container3 {
+        height: 400px;
+        width: 800px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: bisque;
+        outline: 2px solid black;
+        margin: auto;
+        padding: 10px;
+      }
+      .container4 {
+        height: 400px;
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        background-color: bisque;
+        outline: 2px solid black;
+        margin: auto;
+        padding: 10px;
+      }
+      .container5 {
+        width: 800px;
+        display: flex;
+        justify-content: space-around;
+        background-color: bisque;
+        outline: 2px solid black;
+        margin: auto;
+        padding: 10px;
+      }
+      .container6 {
+        width: 800px;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: bisque;
+        outline: 2px solid black;
+        margin: auto;
+        padding: 10px;
+      }
+      .container7 {
+        height: 400px;
+        width: 800px;
+        display: flex;
+        justify-content: flex-start;
+        background-color: bisque;
+        outline: 2px solid black;
+        margin: auto;
+        padding: 10px;
+        gap: 30px;
+        flex-wrap: wrap;
+      }
+
+      .item {
+        height: 150px;
+        width: 150px;
+        background-color: lightblue;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      h3 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Ini justify-content:Start;</h3>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    </div>
+    <h3>Ini Justify-content:Center; Dan align-items:flex-start;</h3>
+    <div class="container2">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    </div>
+    <h3>Ini Justify-content:flex-end; Dan align-items:center;</h3>
+    <div class="container3">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    </div>
+    <h3>Ini Justify-content:space-between; Dan align-items:flex-end;</h3>
+    <div class="container4">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    </div>
+    <h3>Ini Justify-content:space-around;</h3>
+    <div class="container5">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    </div>
+    <h3>Ini justify-content:space-evenly;</h3>
+    <div class="container6">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+    </div>
+    <h3>Ini justify-content:flex-start; Dan flex-wrap:wrap;</h3>
+    <div class="container7">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+    </div>
+  </body>
+</html>
