@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html>                                     
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,55 +13,53 @@
     <title>Wellora</title>
   </head>
   <body>
+    <!-- HEADER / NAVBAR -->
     <header>
-      <!-- logo -->
-      <a href="#" class="nav-logo">
+      <a href="#beranda" class="nav-logo">
         <span class="nav-logo-icon">
-          <img src="asset/logo wellora.png" alt="" width="30" height="30" />
+          <img src="asset/logo wellora.png" alt="Logo Wellora" width="30" height="30" />
         </span>
         Wellora
       </a>
-      <!-- menu -->
+
       <nav class="nav-menu">
-        <a href="#" class="nav-item active">Beranda</a>
-        <a href="#" class="nav-item">Fitur</a>
-        <a href="#" class="nav-item">Tentang Kami</a>
-        <a href="#" class="nav-item">Artikel</a>
-        <a href="#" class="nav-item">Contact</a>
+        <a href="#beranda" class="nav-item active">Beranda</a>
+        <a href="#fitur" class="nav-item">Fitur</a>
+        <a href="#tentang" class="nav-item">Tentang Kami</a>
+        <a href="#artikel" class="nav-item">Artikel</a>
+        <a href="#kontak" class="nav-item">Contact</a>
       </nav>
-      <!-- tombol -->
+
       <div class="nav-button">
-        <a href="#" class="btn-unduh">Unduh Aplikasi</a>
+        <a href="#fitur" class="btn-unduh">Unduh Aplikasi</a>
       </div>
     </header>
 
-    <!-- hero seciton -->
-    <section class="hero">
+    <!-- HERO SECTION -->
+    <section class="hero" id="beranda">
       <div class="text-hero">
-        <span class="badge-hero"
-          ><i class="fa-solid fa-heart"></i> Kesehatanmu. Perjalananmu.
-          Prioritasmu</span
-        >
+        <span class="badge-hero">
+          <i class="fa-solid fa-heart"></i>
+          Kesehatanmu. Perjalananmu. Prioritasmu
+        </span>
 
         <h1 class="hero-judul">
-          Hidup Lebih Baik, <br />
+          Hidup Lebih Baik,<br />
           Tubuh Lebih Bugar
         </h1>
 
         <p class="hero-description">
-          Wellora adalah sahabat kesehatan dan kebugaran all-in-one untuk <br />
-          membantu Anda makan lebih sehat, tidur lebih nyenyak, dan hidup <br />
+          Wellora adalah sahabat kesehatan dan kebugaran all-in-one untuk
+          membantu Anda makan lebih sehat, tidur lebih nyenyak, dan hidup
           seimbang setiap hari.
         </p>
 
         <div class="button-hero">
-          <a href="" class="btn-ios"
-            >Unduh untuk IOS
-            <i class="fa-brands fa-apple"></i>
+          <a href="#fitur" class="btn-ios">
+            Unduh untuk iOS <i class="fa-brands fa-apple"></i>
           </a>
-          <a href="" class="btn-android"
-            >Unduh untuk Android
-            <i class="fa-brands fa-android"></i>
+          <a href="#fitur" class="btn-android">
+            Unduh untuk Android <i class="fa-brands fa-android"></i>
           </a>
         </div>
 
@@ -70,330 +68,394 @@
           Bergabung dengan 50.000+ pengguna bahagia di seluruh dunia
         </div>
       </div>
+
       <div class="gambar-hero">
-        <img src="asset/mobile.png" alt="mobile app" class="gambar" />
+        <img src="asset/mobile.png" alt="Tampilan aplikasi Wellora di ponsel" class="gambar" />
       </div>
     </section>
-    <!-- Fitur Fitur -->
-    <section class="fitur">
-      <div class="card">
-        <span class="card-logo">
-          <i class="fa-solid fa-person-walking"></i>
-        </span>
-        <h3 class="judul-card">Program Terpesonalisasi</h3>
-        <p class="card-description">
-          Rencana latihan khusus sesuai tujuan dan tingkat kebugaran Anda.
-        </p>
-      </div>
-      <div class="card">
-        <span class="card-logo">
-          <i class="fa-solid fa-bowl-food"></i>
-        </span>
-        <h3 class="judul-card">Pelacak Nutrisi</h3>
-        <p class="card-description">
-          Catat pola makan, pantau kalori dan bangun kebiasaan hidup sehat.
-        </p>
-      </div>
-      <div class="card">
-        <span class="card-logo">
-          <i class="fa-solid fa-bed"></i>
-        </span>
-        <h3 class="judul-card">Tidur Berkualitas</h3>
-        <p class="card-description">
-          Pantau pola istirahat Anda dan bangun lebih berenergi setiap pagi.
-        </p>
-      </div>
-      <div class="card">
-        <span class="card-logo">
-          <i class="fa-solid fa-chart-simple"></i>
-        </span>
-        <h3 class="judul-card">Pantau Perkembangan</h3>
-        <p class="card-description">
-          Liat capaian perkembangan setiap hari dan tetap termotivasi setiap
-          hari.
-        </p>
+
+    <!-- FEATURES SECTION -->
+    <section class="features" id="fitur">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-person-running"></i>
+          </div>
+          <h3 class="feature-title">Program Terpersonalisasi</h3>
+          <p class="feature-desc">Rencana latihan khusus sesuai tujuan dan tingkat kebugaran Anda.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-bowl-food"></i>
+          </div>
+          <h3 class="feature-title">Pelacak Nutrisi</h3>
+          <p class="feature-desc">Catat pola makan, pantau kalori, dan bangun kebiasaan hidup sehat.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-bed"></i>
+          </div>
+          <h3 class="feature-title">Tidur Berkualitas</h3>
+          <p class="feature-desc">Pantau pola istirahat Anda dan bangun lebih berenergi setiap pagi.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fa-solid fa-chart-line"></i>
+          </div>
+          <h3 class="feature-title">Pantau Perkembangan</h3>
+          <p class="feature-desc">Lihat capaian kesehatan setiap hari dan tetap termotivasi.</p>
+        </div>
       </div>
     </section>
-    <!-- <section class="fitur2">
-      <div class="fitur-info">
-        <span class="badge-hero">Semua yang Anda Butuhkan</span>
-      </div>
-      <h1 class="judul-info">
-        Solusi Kesehatan Lengkap <br />dalam Satu Aplikasi
-      </h1>
-      <p class="fitur-description">
-        Wellora memadukan kebugaran, nutrisi, kualitas tidur, dan ketenangan
-        pikiran <br />
-        dalam satu aplikasi elegan untuk membantu Anda mencapai hidup terbaik
-      </p>
-    </section> -->
 
-    <!-- Tentang kami -->
-    <section class="about">
-      <div class="abour-kiri">
-        <span class="about-badge">
-          <i class="fa-solid fa-leaf"></i> Tentang Wellora
-        </span>
+    <!-- SOLUTION SECTION -->
+    <section class="solution">
+      <div class="solution-container">
+        <div class="solution-left">
+          <span class="solution-badge">Semua yang Anda Butuhkan</span>
+          <h2 class="solution-title">Solusi Kesehatan Lengkap dalam Satu Aplikasi</h2>
+          <p class="solution-desc">
+            Wellora menyatukan kebugaran, nutrisi, kualitas tidur, dan ketenangan pikiran dalam satu aplikasi.
+          </p>
 
-        <h2 class="about-title">
-          Membangun Generasi yang Lebih Sehat, Aktif & Bahagia.
-        </h2>
-        <p class="about-desc">
-          Wellora didirikan dengan misi sederhana: membuat gaya hidup sehat
-          menjadi kebiasaan harian yang mudah, menyenangkan, dan berkelanjutan
-          untuk siapa saja. Kami menggabungkan kecerdasan teknologi dengan riset
-          kesehatan terpercaya.
-        </p>
-        <div class="about-value">
-          <!-- value 1 -->
-          <div class="value-item">
-            <div class="value-icon">
-              <i class="fa-solid fa-flask-vial"></i>
-            </div>
-            <div class="value-text">
-              <div class="value-title">Berbasis Sains & Medis</div>
+          <ul class="solution-benefits">
+            <li><i class="fa-solid fa-check"></i><span>Antarmuka yang mudah digunakan dan ramah bagi pemula</span></li>
+            <li><i class="fa-solid fa-check"></i><span>Wawasan kesehatan dan kebugaran berbasis riset ilmiah</span></li>
+            <li><i class="fa-solid fa-check"></i><span>Terhubung dengan perangkat pintar favorit Anda</span></li>
+            <li><i class="fa-solid fa-check"></i><span>Dukungan serta motivasi harian setiap waktu</span></li>
+          </ul>
 
-              <div class="value-desc">
-                Setiap rekomendasi nutrisi dan rutinitas latihan divalidasi oleh
-                dokter serta ahli gizi tersertifikasi.
-              </div>
+          <a href="#fitur" class="solution-btn">
+            Jelajahi Fitur <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="solution-right">
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fa-solid fa-fire"></i></div>
+              <p class="stat-label">Kalori Aktif</p>
+              <p class="stat-value">320 kkal</p>
+              <p class="stat-desc">+12% dibanding kemarin</p>
             </div>
-          </div>
-          <!-- Value 2 -->
-          <div class="value-item">
-            <div class="value-icon">
-              <i class="fa-solid fa-shield"></i>
+
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fa-solid fa-shoe-prints"></i></div>
+              <p class="stat-label">Langkah Harian</p>
+              <p class="stat-value">12.367</p>
+              <p class="stat-desc">Target: 10.000 langkah</p>
             </div>
-            <div class="value-text">
-              <div class="value-title">Privasi & Keamanan</div>
-              <div class="value-desc">
-                Data Data kesehatan pribadi Anda dienkripsi penuh dan tidak
-                pernah diperjualbelikan kepada pihak ketiga.
-              </div>
+
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fa-solid fa-droplet"></i></div>
+              <p class="stat-label">Asupan Air</p>
+              <p class="stat-value">1,5 L / 2,5 L</p>
+              <p class="stat-desc">60% tercapai</p>
             </div>
-          </div>
-          <!-- Value 3 -->
-          <div class="value-item">
-            <div class="value-icon">
-              <i class="fa-solid fa-users"></i>
-            </div>
-            <div class="value-text">
-              <div class="value-title">Komunitas Saling Mendukung</div>
-              <div class="value-desc">
-                Temukan teman seperjuangan untuk saling berbagi progres dan
-                menyemangati setiap hari.
-              </div>
+
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fa-solid fa-dumbbell"></i></div>
+              <p class="stat-label">Waktu Olahraga</p>
+              <p class="stat-value">20 / 30 mnt</p>
+              <p class="stat-desc">Pertahankan semangatmu!</p>
             </div>
           </div>
         </div>
       </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="tentang">
+      <div class="about-kiri">
+        <span class="about-badge"><i class="fa-solid fa-leaf"></i> Tentang Wellora</span>
+        <h2 class="about-title">Membangun Generasi yang Lebih Sehat, Aktif, dan Bahagia</h2>
+        <p class="about-desc">
+          Wellora didirikan dengan misi sederhana: membuat gaya hidup sehat menjadi kebiasaan harian yang mudah, menyenangkan, dan berkelanjutan. Kami menggabungkan teknologi dengan informasi kesehatan terpercaya.
+        </p>
+
+        <div class="about-values">
+          <div class="value-item">
+            <div class="value-icon"><i class="fa-solid fa-flask-vial"></i></div>
+            <div class="value-text">
+              <div class="value-title">Berbasis Sains & Medis</div>
+              <div class="value-desc">Rekomendasi nutrisi dan rutinitas latihan mengacu pada informasi dari tenaga ahli.</div>
+            </div>
+          </div>
+
+          <div class="value-item">
+            <div class="value-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="value-text">
+              <div class="value-title">Privasi & Keamanan Data</div>
+              <div class="value-desc">Informasi pribadi pengguna harus dijaga dan digunakan dengan bertanggung jawab.</div>
+            </div>
+          </div>
+
+          <div class="value-item">
+            <div class="value-icon"><i class="fa-solid fa-users"></i></div>
+            <div class="value-text">
+              <div class="value-title">Komunitas Saling Mendukung</div>
+              <div class="value-desc">Temukan teman untuk berbagi progres dan saling menyemangati setiap hari.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="about-kanan">
         <div class="box-about-kanan">
           <h2 class="title-about-kanan">Perjalanan Kita Bersama</h2>
-          <p class="desc-about-kanan">
-            Sejak diluncurkan, Wellora terus bertumbuh mendampingi puluhan ribu
-            individu mencapai versi terbaik dari diri mereka
+          <p class="about-kanan-desc">
+            Wellora terus berkembang untuk mendampingi banyak orang membangun kebiasaan hidup yang lebih sehat.
           </p>
 
           <div class="card-about-kanan">
             <div class="card-item">
-              <span class="card-title">50K+</span> <br />
-              Pengguna Aktif
+              <div class="card-title">50K+</div>
+              <div class="card-desc">Pengguna Aktif</div>
             </div>
             <div class="card-item">
-              <span class="card-title">98%</span><br />
-              Kepuasan Pengguna
+              <div class="card-title">98%</div>
+              <div class="card-desc">Kepuasan Pengguna</div>
             </div>
             <div class="card-item">
-              <span class="card-title">120+</span><br />
-              Pakar Kesehatan
+              <div class="card-title">120+</div>
+              <div class="card-desc">Pakar Kesehatan</div>
             </div>
             <div class="card-item">
-              <span class="card-title">4.8</span><br />
-              Rating Aplikasi
+              <div class="card-title">4.8</div>
+              <div class="card-desc">Rating Aplikasi</div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- Hubungi Kami -->
-    <section class="hubungi-section">
-      <div class="hubungi-title">
-        <p class="edukasi-hubungi">
-          <i class="fa-solid fa-book-open"></i>
-          Edukasi & Inspirasi
+
+    <!-- ARTICLE SECTION -->
+<section class="article" id="artikel">
+  <div class="article-header">
+    <span class="article-badge">
+      <!-- Icon Buku Terbuka dari FontAwesome -->
+      <i class="fa-solid fa-book-open"></i> Edukasi & Inspirasi
+    </span>
+    <h2 class="article-title">Artikel & Tips Gaya Hidup Sehat Terkini</h2>
+    <p class="article-desc">
+      Perluas wawasan Anda seputar nutrisi, tips olahraga praktis, dan manajemen stres untuk menjaga vitalitas tubuh sepanjang hari.
+    </p>
+  </div>
+
+  <div class="article-container">
+    <!-- Artikel 1: Nutrisi -->
+    <div class="article-card">
+      <div class="article-image">
+        <!-- Ganti src dengan gambar Anda -->
+        <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Makanan sehat dan nutrisi" />
+      </div>
+      <div class="article-content">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+        <span class="article-category">Nutrisi</span>
+        <span class="article-time">5 min baca</span>
+        </div>
+        <h3 class="article-card-title">5 Langkah Memulai Pola Makan Sehat Tanpa Diet Menyiksa</h3>
+        <p class="article-card-desc">
+          Pelajari cara menyeimbangkan porsi karbohidrat, protein, dan serat harian secara bertahap tanpa perlu rasa lapar berlebihan.
         </p>
-        <h2 class="title-hubungi">
-          Artikel & Tips Gaya Hidup Sehat <br />
-          Terkini
-        </h2>
-        <p class="desc-hubungi">
-          Perluas wawasan Anda seputar nutrisi, tips olahraga praktis, dan
-          manajemen stres untuk menjaga <br />
-          visalitas tubuh sepanjang hari
+        <!-- Icon Panah Kanan untuk Link -->
+        <a href="#" class="article-link">
+          Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Artikel 2: Kebugaran -->
+    <div class="article-card">
+      <div class="article-image">
+        <img src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Olahraga dan kebugaran" />
+      </div>
+      <div class="article-content">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+        <span class="article-category">Kebugaran</span>
+        <span class="article-time">4 min baca</span>
+        </div>
+        <h3 class="article-card-title">Berapa Langkah Kaki yang Sebenarnya Dibutuhkan Tubuh?</h3>
+        <p class="article-card-desc">
+          Kupas tuntas mitos 10.000 langkah dan fakta ilmiah tentang kebutuhan gerak harian untuk menjaga kesehatan jantung dan stamina.
+        </p>
+        <a href="#" class="article-link">
+          Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Artikel 3: Pola Tidur -->
+    <div class="article-card">
+      <div class="article-image">
+        <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?q=80&w=1460&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt="Tidur berkualitas" />
+      </div>
+      <div class="article-content">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+        <span class="article-category">Pola Tidur</span>
+        <span class="article-time">6 min baca</span>
+        </div>
+        <h3 class="article-card-title">Rahasia Tidur Nyenyak Demi Produktivitas Maksimal</h3>
+        <p class="article-card-desc">
+          Kualitas tidur menentukan metabolisme tubuh. Temukan 4 kebiasaan mudah ini untuk bangun dengan energi penuh keesokan hari.
+        </p>
+        <a href="#" class="article-link">
+          Baca Selengkapnya <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+    
+        <!-- CONTACT SECTION -->
+    <section class="contact" id="kontak">
+      <div class="contact-header">
+        <span class="contact-badge">
+          <i class="fa-solid fa-headset"></i> Hubungi Kami
+        </span>
+        <h2 class="contact-title">Ada Pertanyaan? Kami Siap Membantu</h2>
+        <p class="contact-desc">
+          Punya pertanyaan seputar fitur aplikasi Wellora, kemitraan, atau ingin berkonsultasi? 
+          Kirimkan pesan Anda kepada tim kami.
         </p>
       </div>
-      <!-- Card Hubungi -->
-      <div class="hubungi-card">
-        <div class="hubungi-item">
-          <img
-            src="asset/nutrisi-img.jpg"
-            alt="nutrisi"
-            class="card-img-hubungi"
-          />
-          <span class="time-item-hubungi">
-            <p class="title-item-hubungi">Nutrisi</p>
-            <p>5 mnt baca</p>
-          </span>
-          <div class="hubungi-card-text">
-            <h3 class="hubungi-item-title">
-              5 Langkah Memulai Pola Makan <br />
-              Sehat Tanpa Diet Memaksa
-            </h3>
-            <p class="desc-item-hubungi">
-              Pelajari cara menyeimbangkan porsi karbohidrat, <br />
-              protein, dan serat harian secara bertahap tanpa <br />
-              perlu rasa lapar berlebihan
-            </p>
-            <span class="btn-hubungi"
-              >Baca Selengkapnya <i class="fa-solid fa-arrow-right-long"></i
-            ></span>
+
+      <div class="contact-container">
+        <!-- Info Kontak -->
+        <div class="contact-info">
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="info-text">
+              <p class="info-label">Email Resmi</p>
+              <p class="info-value">support@wellora.id</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="info-text">
+              <p class="info-label">Telepon / WhatsApp</p>
+              <p class="info-value">+62 812-3456-7890</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="info-text">
+              <p class="info-label">Alamat Kantor</p>
+              <p class="info-value">Gedung Wellora Health Center, Jakarta Selatan, Indonesia</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">
+              <i class="fa-solid fa-clock"></i>
+            </div>
+            <div class="info-text">
+              <p class="info-label">Jam Layanan</p>
+              <p class="info-value">Senin – Jumat, 08.00 – 17.00 WIB</p>
+            </div>
           </div>
         </div>
-        <!-- card 2 -->
-        <div class="hubungi-item">
-          <img
-            src="asset/kebugaran-img.jpg"
-            alt="nutrisi"
-            class="card-img-hubungi"
-          />
-          <span class="time-item-hubungi">
-            <p class="title-item-hubungi">Kebugaran</p>
-            <p>5 mnt baca</p>
-          </span>
-          <div class="hubungi-card-text">
-            <h3 class="hubungi-item-title">
-              5 Langkah Memulai Pola Makan <br />
-              Sehat Tanpa Diet Memaksa
-            </h3>
-            <p class="desc-item-hubungi">
-              Pelajari cara menyeimbangkan porsi karbohidrat, <br />
-              protein, dan serat harian secara bertahap tanpa <br />
-              perlu rasa lapar berlebihan
-            </p>
-            <span class="btn-hubungi"
-              >Baca Selengkapnya <i class="fa-solid fa-arrow-right-long"></i
-            ></span>
-          </div>
-        </div>
-        <!-- card 3 -->
-        <div class="hubungi-item">
-          <img
-            src="asset/polatidur-img.jpg"
-            alt="nutrisi"
-            class="card-img-hubungi"
-          />
-          <span class="time-item-hubungi">
-            <p class="title-item-hubungi">Pola Tidur</p>
-            <p>5 mnt baca</p>
-          </span>
-          <div class="hubungi-card-text">
-            <h3 class="hubungi-item-title">
-              5 Langkah Memulai Pola Makan <br />
-              Sehat Tanpa Diet Memaksa
-            </h3>
-            <p class="desc-item-hubungi">
-              Pelajari cara menyeimbangkan porsi karbohidrat, <br />
-              protein, dan serat harian secara bertahap tanpa <br />
-              perlu rasa lapar berlebihan
-            </p>
-            <span class="btn-hubungi"
-              >Baca Selengkapnya <i class="fa-solid fa-arrow-right-long"></i
-            ></span>
-          </div>
+
+        <!-- Form Kontak -->
+        <div class="contact-form">
+          <h3 class="form-title">Kirim Pesan Langsung</h3>
+          <p class="form-desc">Isi formulir berikut dan tim kami akan membalas dalam 1x24 jam kerja.</p>
+
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Nama Lengkap</label>
+                <input type="text" placeholder="Masukkan nama Anda">
+              </div>
+              <div class="form-group"> 
+                <label>Alamat Email</label>
+                <input type="email" placeholder="nama@email.com">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Subjek Pesan</label>
+              <input type="text" placeholder="Contoh: Pertanyaan seputar fitur">
+            </div>
+
+            <div class="form-group">
+              <label>Pesan Anda</label>
+              <textarea rows="4" placeholder="Tuliskan pesan atau pertanyaan Anda di sini..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-kirim">
+              Kirim Pesan Sekarang <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
         </div>
       </div>
     </section>
-    <!-- kami Section -->
-     <section class="kami-section">
-      <div class="title-kami">
-        <p class="kami-title-logo">
-          <i class="fa-solid fa-headset"></i>
-          Hubungi Kami
-        </p>
-        <h2 class="title-kami-1">
-          Ada Pertanyaan? Kami Siap <br> Membantu
-        </h2>
-        <p class="desc-kami">
-          Punya pertanyaan seputar fitur aplikasi Welora, kemitraan, atau ingin berkonsultasi? Kirimkan <br>pesan Anda kepada tim kami.
-        </p>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-logo">
+        <i class="fa-solid fa-leaf"></i> Wellora
       </div>
-      <div class="form-kami">
-        <div class="form-kami-kiri">
-          <!-- card 1 -->
-          <span class="alamat-item">
-            <i class="fa-solid fa-envelope"></i>
-            <span class="teks-kami">
-               <p class="title-card-alamat">
-              Email Resmi
-            </p>
-            <p class="alamat-card">
-              support@wellora.id
-            </p>
-            </span>
-           
-          </span>
-          <!-- card 2 -->
-           <span class="alamat-item">
-            <i class="fa-solid fa-phone"></i>
-            <span class="teks-kami">
-              <p class="title-card-alamat">
-              Telepon/WhatsApp
-            </p>
-            <p class="alamat-card">
-              +62 812-3456-7890
-            </p></span>
-            
-          </span>
-          <!-- card 3 -->
-           <span class="alamat-item">
-            <i class="fa-solid fa-location-dot"></i>
-            <span class="teks-kami">
-              <p class="title-card-alamat">
-              Alamat Kantor
-            </p>
-            <p class="alamat-card">
-              Gedung Wellora Health Center, Jakarta <br>
-              Selatan, Indonesia
-            </p>
-            </span>
-            
-          </span>
-          <!-- card 4 -->
-           <span class="alamat-item">
-            <i class="fa-solid fa-clock"></i>
-            <span class="teks-kami">
-              <p class="title-card-alamat">
-              Jam Layanan
-            </p>
-            <p class="alamat-card">
-              Senin - Jumat, 08.00 - 17.00 WIB
-            </p>
-            </span>
-            
-          </span>
-        </div>
-        <div class="form-kami-kanan">
-          <h2 class="form-kami-kanan-title">
-            Kirim Pesan Langsung
-          </h2>
-          <p class="form-kami-kanan-title-desc">
-            Isi formulir berikut dan tim kami akan membalas dalam 1x24 jam kerja
-          </p>
-        </div>
-        </div>
-        
+      
+      <p class="footer-tagline">
+        Sahabat setia Anda menuju kehidupan yang lebih sehat, aktif, dan seimbang setiap hari.
+      </p>
+
+      <nav class="footer-nav">
+        <a href="#beranda">Beranda</a>
+        <a href="#fitur">Fitur</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#solusi">Artikel</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+
+      <div class="footer-bottom">
+        <p>© 2026 Wellora. Seluruh hak cipta dilindungi. Dibuat untuk pembelajaran CSS Flexbox Siswa Kelas X RPL.</p>
       </div>
-     </section>
+    </footer>
+
+    <!-- Button Back to Top -->
+      <button 
+      id="btnBackToTop"
+      onclick="keAtasHalaman()" 
+      class="back-to-top"><i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script>
+      //setiap kali user melakukan scroll, jalankan fungsi didalamnya,
+      // fungsi ini akan dipanggil berulang ulang selama pengguna
+      // melakukan scroll
+      window.addEventListener('scroll',function() {
+
+
+        // getElementByID = Mengambil  elemen html yang memiliki id btnBackToTop
+        const btnTop = document.getElementById('btnBackToTop');
+        if(window.scrollY > 300){
+          btnTop.style.display = 'block';
+        }
+        else{
+          btnTop.style.display = 'none';
+        }
+      });
+
+      // 
+      function keAtasHalaman() {
+        window.scrollTo({
+          top : 0, behavior: ('smooth')
+          // bergulir ke paling atas
+        })
+      }
+    </script>
   </body>
 </html>
