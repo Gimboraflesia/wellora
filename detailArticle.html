@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Detail Artikel</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="script.js" defer></script>
+</head>
+<body>
+     <main class="article-detail-page">
+          <a class="article-detail-back" href="index.html#artikel">← Kembali ke artikel</a>
+          <article id="detailArticle" class="article-detail" hidden>
+               <img id="gambarArticle" class="article-detail-image" src="" alt="">
+               <div class="article-detail-content">
+                    <div class="article-detail-meta">
+                         <span id="kategoriArticle" class="article-category"></span>
+                         <span id="waktuBacaArticle" class="article-time"></span>
+                    </div>
+                    <h1 id="judulArticle" class="article-detail-title"></h1>
+                    <p id="deskripsiArticle" class="article-detail-description"></p>
+                    <p id="isiArticle" class="article-detail-body"></p>
+               </div>
+          </article>
+          <p id="articleNotFound" class="article-not-found" hidden>Artikel tidak ditemukan. Silakan kembali ke daftar artikel.</p>
+     </main>
+</body>
+</html>

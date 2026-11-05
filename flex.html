@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Flex</title>
+     <style>
+          .container-1 {
+               width: 800px;
+               border: 2px solid black;
+               margin: auto;
+               padding: 10px;
+               justify-content: space-between;
+               display: flex;
+               align-items: baseline;
+               height: 400px;
+
+          }
+
+          .container-2 {
+               width: 800px;
+               border: 2px solid black;
+               margin: auto;
+               padding: 10px;
+               justify-content: center;
+               display: flex;
+               align-items: center;
+               height: 400px;
+          }
+
+          .container-3 {
+               width: 800px;
+               border: 2px solid black;
+               margin: auto;
+               padding: 10px;
+               justify-content: flex-start;
+               display: flex;
+               align-items: flex-start;
+               height: 400px;
+          }
+
+          .container-4 {
+               width: 800px;
+               border: 2px solid black;
+               margin: auto;
+               padding: 10px;
+               justify-content: flex-end;
+               display: flex;
+               align-items: flex-end;
+               height: 400px;
+          }
+
+          .container-5 {
+               width: 800px;
+               border: 2px solid black;
+               margin: auto;
+               padding: 10px;
+               justify-content: space-around;
+               display: flex;
+               align-items: stretch;
+               height: 400px;
+          }
+
+          .container-6 {
+               width: 800px;
+               border: 2px solid black;
+               margin: auto;
+               padding: 10px;
+               justify-content: space-evenly;
+               display: flex;
+               align-items: normal;
+               height: 400px;
+          }
+
+          .item {
+               background-color: lightgray;
+               width: 150px;
+               height: 150px;
+               border-radius: 10px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+          }
+
+          h2 {
+               text-align: center;
+          }
+
+          .containerWrap-1 {
+               width: 800px;
+               height: 400px;
+               flex-wrap: wrap;
+               border: 2px solid black;
+               margin: auto;
+               padding: 10px;
+               justify-content: flex-start;
+               align-items: center;
+               display: flex;
+               gap: 30px;
+          }
+     </style>
+</head>
+<body>
+     <h2>justify-content: space-between; dan align-items: baseline;</h2>
+     <div class="container-1">
+          <div class="item">1 Satu</div>
+          <div class="item">2 Dua</div>
+          <div class="item">3 Tiga</div>
+     </div>
+
+     <h2>justify-content: center; dan align-items: center;</h2>
+     <div class="container-2">
+          <div class="item">1 Satu</div>
+          <div class="item">2 Dua</div>
+          <div class="item">3 Tiga</div>
+     </div>
+
+     <h2>justify-content: flex-start; dan align-items: flex-start;</h2>
+     <div class="container-3">
+          <div class="item">1 Satu</div>
+          <div class="item">2 Dua</div>
+          <div class="item">3 Tiga</div>
+     </div>
+
+     <h2>justify-content: flex-end; dan align-items: flex-end;</h2>
+     <div class="container-4">
+          <div class="item">1 Satu</div>
+          <div class="item">2 Dua</div>
+          <div class="item">3 Tiga</div>
+     </div>
+
+     <h2>justify-content: space-around; dan align-items: stretch;</h2>
+     <div class="container-5">
+          <div class="item">1 Satu</div>
+          <div class="item">2 Dua</div>
+          <div class="item">3 Tiga</div>
+     </div>
+
+     <h2>justify-content: space-evenly; dan align-items: normal;</h2>
+     <div class="container-6">
+          <div class="item">1 Satu</div>
+          <div class="item">2 Dua</div>
+          <div class="item">3 Tiga</div>
+     </div>
+     <hr>
+     <h2>Flex Wrap</h2>
+     <h2>justify-content: flex-start; dan align-items: flex-start; dan flex-wrap: wrap;</h2>
+     <div class="containerWrap-1">
+          <div class="item">1 Satu</div>
+          <div class="item">2 Dua</div>
+          <div class="item">3 Tiga</div>
+          <div class="item">4 Empat</div>
+          <div class="item">5 Lima</div>
+          <div class="item">6 Enam</div>
+</body>
+</html>
